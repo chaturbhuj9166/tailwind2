@@ -202,6 +202,12 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[15px\] {
+    margin-top: 15px;
+  }
   .mt-\[20px\] {
     margin-top: 20px;
   }
@@ -210,6 +216,15 @@
   }
   .mt-\[40px\] {
     margin-top: 40px;
+  }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
+  .mt-\[60px\] {
+    margin-top: 60px;
+  }
+  .mt-\[80px\] {
+    margin-top: 80px;
   }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
@@ -247,14 +262,44 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
   .h-4 {
     height: calc(var(--spacing) * 4);
+  }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
+  .h-15 {
+    height: calc(var(--spacing) * 15);
   }
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
   .h-100 {
     height: calc(var(--spacing) * 100);
+  }
+  .h-110 {
+    height: calc(var(--spacing) * 110);
+  }
+  .h-120 {
+    height: calc(var(--spacing) * 120);
+  }
+  .h-125 {
+    height: calc(var(--spacing) * 125);
+  }
+  .h-135 {
+    height: calc(var(--spacing) * 135);
+  }
+  .h-145 {
+    height: calc(var(--spacing) * 145);
+  }
+  .h-150 {
+    height: calc(var(--spacing) * 150);
   }
   .h-\[0vh\] {
     height: 0vh;
@@ -363,6 +408,9 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
   }
   .gap-9 {
     gap: calc(var(--spacing) * 9);
@@ -494,6 +542,12 @@
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
+  .pt-\[10px\] {
+    padding-top: 10px;
+  }
+  .pt-\[15px\] {
+    padding-top: 15px;
+  }
   .pt-\[20px\] {
     padding-top: 20px;
   }
@@ -527,6 +581,9 @@
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
   .pl-\[10px\] {
     padding-left: 10px;
   }
@@ -541,6 +598,12 @@
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
@@ -550,6 +613,9 @@
   }
   .text-amber-50 {
     color: var(--color-amber-50);
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-blue-400 {
     color: var(--color-blue-400);
