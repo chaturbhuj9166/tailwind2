@@ -173,8 +173,17 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
   .m-2 {
     margin: calc(var(--spacing) * 2);
+  }
+  .m-4 {
+    margin: calc(var(--spacing) * 4);
+  }
+  .m-\[40px\] {
+    margin: 40px;
   }
   .m-auto {
     margin: auto;
@@ -200,11 +209,23 @@
   .mt-\[40px\] {
     margin-top: 40px;
   }
+  .mb-0 {
+    margin-bottom: calc(var(--spacing) * 0);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
   .mb-\[10px\] {
     margin-bottom: 10px;
   }
+  .mb-\[20p\] {
+    margin-bottom: 20p;
+  }
   .mb-\[20px\] {
     margin-bottom: 20px;
+  }
+  .mb-\[40px\] {
+    margin-bottom: 40px;
   }
   .block {
     display: block;
@@ -221,20 +242,20 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
+  .h-\[30vh\] {
+    height: 30vh;
+  }
+  .h-\[50vh\] {
+    height: 50vh;
+  }
   .h-\[95\%\] {
     height: 95%;
   }
   .h-\[150px\] {
     height: 150px;
   }
-  .w-\[3\%\] {
-    width: 3%;
-  }
-  .w-\[30\%\] {
-    width: 30%;
-  }
-  .w-\[30\] {
-    width: 30;
+  .h-\[250px\] {
+    height: 250px;
   }
   .w-\[80\%\] {
     width: 80%;
@@ -250,9 +271,6 @@
   }
   .w-\[100\%\] {
     width: 100%;
-  }
-  .w-\[300px\] {
-    width: 300px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -324,6 +342,12 @@
   .p-\[20px\] {
     padding: 20px;
   }
+  .p-\[40px\] {
+    padding: 40px;
+  }
+  .p-\[px\] {
+    padding: px;
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -336,8 +360,32 @@
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
+  .pt-\[60px\] {
+    padding-top: 60px;
+  }
+  .pt-\[80px\] {
+    padding-top: 80px;
+  }
+  .pt-\[100px\] {
+    padding-top: 100px;
+  }
   .pr-\[20px\] {
     padding-right: 20px;
+  }
+  .pb-\[0px\] {
+    padding-bottom: 0px;
+  }
+  .pb-\[10px\] {
+    padding-bottom: 10px;
+  }
+  .pb-\[40px\] {
+    padding-bottom: 40px;
+  }
+  .pb-\[px\] {
+    padding-bottom: px;
   }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
@@ -381,6 +429,14 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-0 {
+    outline-style: var(--tw-outline-style);
+    outline-width: 0px;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
   }
   .hover\:bg-green-400 {
     &:hover {
