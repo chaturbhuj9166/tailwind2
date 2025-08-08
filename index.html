@@ -36,10 +36,20 @@
 
            </div>
         </div>
-        <div class=" text-white text-2xl block md:hidden">
-          <i class="fa-solid fa-bars"></i>
-        </div>
+
+        <div class="relative bg-amber-50 w-[50px] h-[40px] text-white text-2xl block md:hidden group cursor-pointer">
+  <i class="fa-solid fa-bars text-black flex items-center justify-center h-full"></i>
+
+  <!-- Dropdown -->
+  <div class="absolute top-full left-0 bg-amber-100 text-black p-2 hidden group-hover:block z-10">
+    <h1 class="py-1 px-2 hover:bg-amber-200">Home</h1>
+    <h1 class="py-1 px-2 hover:bg-amber-200">About</h1>
+  </div>
+</div>
+
+
       </div>
+
     </div>
     <div class=" pt-[100px] w-[100%] py-4 px-4 sm:px-10">
       <div class="flex flex-col md:flex-row  justify-between items-center ">
@@ -177,6 +187,16 @@
    
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
 
